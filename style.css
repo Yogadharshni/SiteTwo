@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    /* max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px; */
+    /* height: 100vh; */
+    width: 100%;
+    background-image: url(https://images.prismic.io/intuzwebsite/d394de11-2b7f-4a72-a3e0-c876f7356a40_Main.png?auto=compress,format);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    height: 300px;
+    width: 500px;
+    color: white;
+    padding: 20px;
+    margin-top: 400px;
+ 
+
+
+}
+
+@media (max-width: 768px) {
+    /* .card {
+        width: 100%;
+    } */
+
+    .card-container{
+        flex-direction: column;
+        font-size: smaller;
+    }
+    .card{
+        /* flex-direction: column; */
+        font-size: smaller;
+    }
+}
