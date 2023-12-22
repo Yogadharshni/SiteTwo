@@ -1,153 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-         @media (max-width: 480px) {
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-           
-            /* background-color: rgb(70, 3, 116); */
-        }
-    
-        .container {
-            width: 100%;
-        
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: end;
-            margin-bottom: 20px; /* Add margin to the bottom of the container */
-        }
-    
-        .card {
-            height: auto;
-            width: 80%;
-            margin-top: 6px;
-            /* font-size: small; */
-            max-width: 400px;
-            color: rgb(15, 15, 15);
-            padding: 5px;
-            box-sizing: border-box;
-            /* background: rgba(32, 32, 32, 0.7); */
-            margin-bottom: 20px; /* Add margin to the bottom of each card */
-        }
-    
-        .card:hover {
-            background: rgba(112, 198, 224, 0.7);
-        }
-    
-        .heading {
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-    
-        .text {
-            font-size: 14px;
-        }
-    
-        .background-image {
-            width: 100%;
-            height: 250px;
-            margin-top: 0;
-            background-image: url(https://static.vecteezy.com/system/resources/previews/010/940/838/original/man-on-stairs-on-the-cloud-for-success-illustration-background-vector.jpg);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-         }
-        @media (min-width: 481px) {
-           
-    
-            .background-image {
-                display: none; /* Hide the background image on smaller screens */
-            }
-    
-            body {
-                background-image: url(https://static.vecteezy.com/system/resources/previews/010/940/838/original/man-on-stairs-on-the-cloud-for-success-illustration-background-vector.jpg);
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
-    
-            .card {
-                margin-bottom: 0;
-            }
-           
-           
-            /* background-color: rgb(70, 3, 116); */
-        
-    
-        .container {
-            width: 100%;
-            height: 100vh;
-            display: flex;
-            flex-direction: row;
-            align-items: end;
-            justify-content: space-around;
-            margin-bottom: 6px; /* Add margin to the bottom of the container */
-        }
-    
-        .card {
-            height: 200px;
-            width: 80%;
-            /* font-size: small; */
-            max-width: 400px;
-            color: rgb(10, 0, 0);
-            padding: 10px;
-            box-sizing: border-box;
-            /* background: rgba(32, 32, 32, 0.7); */
-            margin-bottom: 6px; /* Add margin to the bottom of each card */
-        }
-    
-        .card:hover {
-            background: rgba(247, 242, 242, 0.7);
-        }
-    
-        .heading {
-            font-weight: bolder;
-            margin-bottom: 10px;
-        }
-    
-        .text {
-            font-size: bold;
-        }
-    
-       
-    
-        }
-
-    </style>
-    
-    
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Three Ways to Success</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body> 
     <div class="container">
-        <div class="background-image"></div>
-        
-        <div class="card">
-            <h2 class="heading">1. Having a clear plan</h2>
-            <p class="text">
-                The first thing you can do to have a successful life is to lay out a plan. Having a clear idea of where you want to be may help you streamline your actions and achieve your goals.
-            </p>
-        </div>
+      <div class="background-image"></div>
 
-        <div class="card">
-            <h2 class="heading">2. Prioritising your goals</h2>
-            <p class="text">
-                Once you have made a list of your goals, it is important to prioritise them. Some goals may be long term, while others short term. It is important to dedicate your time according to each goal. 
-            </p>
-        </div>
+      <div class="card"> 
+        <h2 class="heading">1. Having a clear plan</h2>
+        <p class="text">
+          The first thing you can do to have a successful life is to lay out a
+          plan. Having a clear idea of where you want to be may help you
+          streamline your actions and achieve your goals.
+        </p>
+      </div>
 
-        <div class="card">
-            <h2 class="heading">3. Working hard</h2>
-            <p class="text">
-                There can be no substitute for hard work. It is an essential requirement if you want to be successful, whether it is in your personal or professional life. Working hard may not come easily, but with consistent effort, it may become easier. 
-            </p>
-        </div>
+      <div class="card">
+        <h2 class="heading">2. Prioritising your goals</h2>
+        <p class="text">
+          Once you have made a list of your goals, it is important to prioritise
+          them. Some goals may be long term, while others short term. It is
+          important to dedicate your time according to each goal.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2 class="heading">3. Working hard</h2>
+        <p class="text">
+          There can be no substitute for hard work. It is an essential
+          requirement if you want to be successful, whether it is in your
+          personal or professional life. Working hard may not come easily, but
+          with consistent effort, it may become easier.
+        </p>
+      </div>
     </div>
-</body>
+  </body>
 </html>
